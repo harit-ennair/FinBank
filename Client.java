@@ -1,5 +1,12 @@
 public class Client extends User {
-    public static void main(String[] args) {
 
+    private int idClient;
+
+    public int getIdClient() {
+        return idClient;
+    }
+
+    public void setIdClient(int idClient) {
+        this.idClient = idClient;
     }
 }
